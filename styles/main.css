@@ -30,3 +30,8 @@
 .feature-one {
   grid-column: 1 / -1; /* Spans from the first column to the last column */
 }
+.featured-items {
+  display: grid;
+  grid-template-columns: 1fr; /* Stack items vertically by default */
+  gap: 10px; /* 10px gap between items */
+}
