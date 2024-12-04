@@ -17,3 +17,8 @@
   display: grid;
   grid-template-columns: 150px 1fr;
 }
+.featured-items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Creates two columns, each 1fr */
+  gap: 10px; /* Sets a 10px gap between grid items */
+}
