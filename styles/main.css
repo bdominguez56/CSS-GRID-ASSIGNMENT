@@ -22,3 +22,11 @@
   grid-template-columns: repeat(2, 1fr); /* Creates two columns, each 1fr */
   gap: 10px; /* Sets a 10px gap between grid items */
 }
+.featured-items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two equal-width columns */
+  gap: 10px; /* 10px gap between items */
+}
+.feature-one {
+  grid-column: 1 / -1; /* Spans from the first column to the last column */
+}
