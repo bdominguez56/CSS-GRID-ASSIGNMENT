@@ -7,8 +7,8 @@
   }
   .page-wrapper {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 equal columns */
-    grid-gap: 16px; /* Optional: adds space between grid items */
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 16px; 
   }
   .page-wrapper {
     display: grid;
@@ -20,14 +20,14 @@
   }
   .featured-items {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Creates two columns, each 1fr */
-    gap: 10px; /* Sets a 10px gap between grid items */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px; 
   }
   .featured-items {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two equal-width columns */
-    gap: 10px; /* 10px gap between items */
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 10px; 
   }
   .feature-one {
-    grid-column: 1 / -1; /* Spans from the first column to the last column */
+    grid-column: 1 / -1; 
   }
