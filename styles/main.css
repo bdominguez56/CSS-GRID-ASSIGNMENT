@@ -6,12 +6,12 @@
   }
   .page-wrapper {
     display: grid;
-    grid-template-rows: repeat(2, 1fr); 
+    grid-template-columns: repeat(2, 1fr); 
     grid-gap: 16px; 
   }
   .page-wrapper {
     display: grid;
-    grid-template-rows: 70px 1fr auto 50px;
+    grid-template-columns: 70px 1fr auto 50px;
   }
   .content-wrapper {
     display: grid;
