@@ -16,18 +16,18 @@
   }
   .content-wrapper {
     display: grid;
-    grid-template-rows: 150px 1fr;
+    grid-template-columns: 150px 1fr;
   }
   .featured-items {
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px; 
   }
   .featured-items {
     display: grid;
-    grid-template-rows: repeat(2, 1fr); 
+    grid-template-columns: repeat(2, 1fr); 
     gap: 10px; 
   }
   .feature-one {
-    grid-row: 1 / -1; 
+    grid-column: 1 / -1; 
   }
